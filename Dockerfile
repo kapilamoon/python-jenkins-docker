@@ -1,4 +1,4 @@
 FROM python
 WORKDIR /add
-COPY app.python
+COPY app.py .
 CMD ["python","app.py"]
